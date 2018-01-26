@@ -1,17 +1,20 @@
 -- 1.
 -- What are the types of the following values?
 
--- [Char]
--- ['a', 'b', 'c']
+-- List [Char]
+['a', 'b', 'c']
 
--- [(Bool, Char]
--- [(False, '0'), (True '1')]
+-- Tuple (Char)
+(’a’,’b’,’c’)
 
--- ([Bool], [Char])
--- ([False, True], ['0', '1'])
+-- List [Tuples (Bool, Char)]
+[(False, '0'), (True '1')]
 
--- [[a] -> [a]]
--- [tail, init, reverse]
+-- Tuples( List [Bool, Bool], List [Char, Char])
+([False, True], ['0', '1'])
+
+-- List [ Function, Function ,Function ]
+[tail, init, reverse]
 
 -- 2.
 bools :: [Bool]
